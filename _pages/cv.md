@@ -20,6 +20,10 @@ Work experience
   * Purdue University
   * Supervisor: Denny Yu
 
+* April 2025 - June 2025: Research Scientist
+  * SpatialVerse
+  * Supervisor: Denny Yu
+
 * May 2024 - September 2024: Research Scientist
   * Zhejiang University
   * Supervisor: Jianwei Yin
