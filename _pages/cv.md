@@ -20,15 +20,19 @@ Work experience
   * Purdue University
   * Supervisor: Denny Yu
 
-* April 2025 - June 2025: Research Scientist
+* April 2025 - June 2025: Research Scientist [Intern]
   * SpatialVerse
-  * Supervisor: Denny Yu
+  * Supervisor: Zihan Zhou
 
-* May 2024 - September 2024: Research Scientist
+* June 2025 - Sepember 2025: Product Research and Development [Intern]
+  * Coohom
+  * Supervisor: Tianzhe Long
+
+* May 2024 - September 2024: Research Scientist [Intern]
   * Zhejiang University
   * Supervisor: Jianwei Yin
 
-* May 2023 - September 2023: Product Manager
+* May 2023 - September 2023: Product Manager [Intern]
   * BrainCo Inc
   * Supervisor: Yang Zhang
 
