@@ -16,20 +16,20 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* August 2023 - Present: Research Assistant
+  * Purdue University
+  * Supervisor: Denny Yu
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* May 2024 - September 2024: Research Scientist
+  * Zhejiang University
+  * Supervisor: Jianwei Yin
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* May 2023 - September 2023: Product Manager
+  * BrainCo Inc
+  * Supervisor: Yang Zhang
+
+
+<!--
   
 Skills
 ======
@@ -57,7 +57,15 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+  -->
+
+Reviewer for
+======
+* IEEE Transactions on Human Machine Systems
+* IEEE Transactions on Neural Networks and Learning Systems
+* IEEE Transactions on Intelligent Transportation Systems
