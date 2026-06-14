@@ -7,6 +7,14 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+  @media screen and (min-width: 1024px) {
+    .page {
+      transform: translateX(-5rem);
+    }
+  }
+</style>
+
 <!--
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
@@ -60,7 +68,6 @@ More info about configuring Academic Pages can be found in [the guide](https://a
 -->
 
 I am a third year PhD student at [Edwardson School of Industrial Engineering](https://engineering.purdue.edu/IE), [Purdue University](https://www.purdue.edu/), under guidence of [Prof. Denny Yu](https://engineering.purdue.edu/IE/people/ptProfile?resource_id=134078). I hold a Bachelor’s degree in Information Systems in University of Florida. I worked as an intern at [BrainCo](https://brainco.tech/#/) in 2023, and [Coohom](https://www.coohom.com/) [SpatialVerse](https://www.spatial-verse.com/) in 2025. My research focus on safety & usability in transportation and healthcare with AI and digital twin.
-
 
 
 

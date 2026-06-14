@@ -7,6 +7,14 @@ redirect_from:
   - /resume
 ---
 
+<style>
+  @media screen and (min-width: 1024px) {
+    .archive {
+      transform: translateX(-5rem);
+    }
+  }
+</style>
+
 {% include base_path %}
 
 Education
