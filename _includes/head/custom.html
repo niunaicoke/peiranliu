@@ -14,4 +14,90 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<style>
+  .masthead__inner-wrap {
+    padding-left: 0 !important;
+  }
+
+  .masthead__menu-item--lg {
+    margin-left: 0.9rem !important;
+  }
+
+  .greedy-nav .masthead__menu-item--lg a {
+    margin-left: 0 !important;
+    padding-left: 1.6rem !important;
+  }
+
+  .greedy-nav .visible-links {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+  }
+
+  .greedy-nav .visible-links .masthead__menu-item--lg {
+    margin-right: auto !important;
+  }
+
+  .greedy-nav .visible-links .masthead__menu-item:not(.masthead__menu-item--lg) {
+    display: flex !important;
+    align-items: center;
+  }
+
+  .sidebar {
+    padding-left: 0.65rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .masthead__inner-wrap {
+      max-width: none !important;
+      padding-left: 5rem !important;
+    }
+
+    .masthead__menu-item--lg {
+      margin-left: 0 !important;
+    }
+
+    .greedy-nav .visible-links .masthead__menu-item:nth-child(2) {
+      margin-left: auto !important;
+    }
+
+    .sidebar {
+      left: 1rem !important;
+      text-align: center;
+    }
+
+    .sidebar .author__avatar img {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .sidebar .author__content {
+      text-align: center;
+    }
+
+    .sidebar .author__urls {
+      width: fit-content;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: left;
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    .sidebar > div[itemscope] {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+
+    .sidebar .author__avatar,
+    .sidebar .author__content,
+    .sidebar .author__urls-wrapper {
+      display: block;
+      padding: 0;
+      vertical-align: middle;
+    }
+  }
+</style>
+
 <!-- end custom head snippets -->

@@ -1,0 +1,316 @@
+---
+layout: archive
+title: "Research Interest"
+permalink: /research-interest/
+author_profile: true
+---
+
+<style>
+  .research-focus {
+    --ink: #142236;
+    --navy: #0f2f52;
+    --navy-deep: #071a31;
+    --muted: #637382;
+    --line: #d7e2ea;
+    --blue-50: #eef6fb;
+    --blue-100: #dcecf5;
+    --blue-600: #2c6f9e;
+    --green-50: #eef5eb;
+    --gold-50: #f5eddc;
+    --ai-data: #dbeaf1;
+    --ai-agents: #e9f1e2;
+    --ai-software: #f1e7d4;
+    display: grid;
+    grid-template-columns: minmax(520px, 1.55fr) minmax(360px, 1fr);
+    gap: 2.2rem;
+    align-items: center;
+    max-width: 1220px;
+    margin: 1.8rem auto 0;
+    color: var(--ink);
+  }
+
+  .hdt-pillar {
+    padding: 1.35rem;
+    border: 1px solid var(--line);
+    border-top: 5px solid var(--blue-600);
+    border-radius: 8px;
+    background: linear-gradient(180deg, #f7fbfd 0%, var(--blue-50) 100%);
+    box-shadow: 0 20px 44px rgba(31, 74, 105, 0.08);
+  }
+
+  .hdt-pillar h2 {
+    margin: 0 0 0.35rem;
+    color: #174d78;
+    font-size: 1.22rem;
+    line-height: 1.2;
+    letter-spacing: 0;
+  }
+
+  .hdt-pillar__lead {
+    margin: 0 0 1rem;
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.45;
+  }
+
+  .hdt-modules {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .hdt-module {
+    padding: 0.85rem 0.95rem;
+    border: 1px solid #d7e9f4;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 10px 22px rgba(33, 83, 120, 0.06);
+  }
+
+  .hdt-module__title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 0 0.5rem;
+    color: #1d5f91;
+    font-size: 0.98rem;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+
+  .hdt-module__icon {
+    display: grid;
+    place-items: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    color: #fff;
+    background: #edf6fa;
+    border: 1px solid #cfe3ef;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.72);
+    overflow: hidden;
+  }
+
+  .hdt-module__icon img {
+    width: 1.42rem;
+    height: 1.42rem;
+    object-fit: contain;
+    display: block;
+  }
+
+  .hdt-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .hdt-tag {
+    display: inline-flex;
+    align-items: center;
+    min-height: 1.35rem;
+    padding: 0.16rem 0.48rem;
+    border-radius: 999px;
+    background: #edf3f7;
+    color: #526576;
+    font-size: 0.63rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  .ai-panel {
+    text-align: center;
+  }
+
+  .orbit-title {
+    margin: 0 0 0.8rem;
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    line-height: 1.35;
+    text-transform: uppercase;
+  }
+
+  .orbit {
+    position: relative;
+    width: min(100%, 400px);
+    aspect-ratio: 1;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: conic-gradient(from 0deg, var(--ai-data) 0 120deg, var(--ai-agents) 120deg 240deg, var(--ai-software) 240deg 360deg);
+    border: 1px solid rgba(198, 214, 224, 0.86);
+    box-shadow: 0 26px 62px rgba(32, 61, 83, 0.12);
+  }
+
+  .orbit-center {
+    position: absolute;
+    inset: 30.5%;
+    display: grid;
+    place-items: center;
+    padding: 0.85rem;
+    border-radius: 50%;
+    color: #fff;
+    background: linear-gradient(145deg, var(--navy) 0%, var(--navy-deep) 100%);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 14px 28px rgba(15, 38, 63, 0.2);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.08rem, 1.58vw, 1.48rem);
+    font-weight: 700;
+    line-height: 1.08;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .orbit-label {
+    position: absolute;
+    color: var(--ink);
+    text-align: center;
+  }
+
+  .orbit-label h2 {
+    margin: 0 0 0.22rem;
+    color: var(--ink);
+    font-size: clamp(0.88rem, 1.1vw, 1.05rem);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: 0;
+  }
+
+  .orbit-label p {
+    margin: 0;
+    color: var(--muted);
+    font-size: clamp(0.48rem, 0.64vw, 0.59rem);
+    font-weight: 700;
+    line-height: 1.28;
+    letter-spacing: 0;
+  }
+
+  .orbit-label--data {
+    top: 23%;
+    right: 9%;
+    width: 22%;
+  }
+
+  .orbit-label--agents {
+    left: 50%;
+    bottom: 8.5%;
+    width: 30%;
+    transform: translateX(-50%);
+  }
+
+  .orbit-label--software {
+    top: 23%;
+    left: 7%;
+    width: 22%;
+  }
+
+  @media (min-width: 1121px) {
+    .research-focus {
+      margin-left: -7.5rem;
+    }
+  }
+
+  @media (max-width: 1120px) {
+    .research-focus {
+      grid-template-columns: 1fr;
+      max-width: 560px;
+      gap: 2.5rem;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .research-focus {
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+
+    .hdt-pillar {
+      padding: 1rem;
+    }
+
+    .orbit {
+      width: min(100%, 340px);
+    }
+
+    .orbit-label h2 {
+      font-size: 0.86rem;
+    }
+
+    .orbit-label p {
+      font-size: 0.54rem;
+      line-height: 1.22;
+    }
+
+    .orbit-center {
+      font-size: 0.96rem;
+      padding: 0.65rem;
+    }
+  }
+</style>
+
+<div class="research-focus" aria-label="Research interest overview">
+  <section class="hdt-pillar" aria-label="Human digital twin research interests">
+    <h2>Human Digital Twin</h2>
+    <p class="hdt-pillar__lead">My priority research interest is human digital twin.</p>
+
+    <div class="hdt-modules">
+      <div class="hdt-module">
+        <h3 class="hdt-module__title">
+          <span class="hdt-module__icon"><img src="/assets/images/research-icons/wearable-sensors.png" alt="" aria-hidden="true"></span>
+          Wearable Sensors
+        </h3>
+        <div class="hdt-tags">
+          <span class="hdt-tag">Physiological sensor data</span>
+          <span class="hdt-tag">Kinematic sensor data</span>
+        </div>
+      </div>
+
+      <div class="hdt-module">
+        <h3 class="hdt-module__title">
+          <span class="hdt-module__icon"><img src="/assets/images/research-icons/human-factors.svg" alt="" aria-hidden="true"></span>
+          HFE
+        </h3>
+        <div class="hdt-tags">
+          <span class="hdt-tag">Human factors</span>
+          <span class="hdt-tag">Physical ergonomics</span>
+          <span class="hdt-tag">Cognitive modeling</span>
+          <span class="hdt-tag">Physical modeling</span>
+        </div>
+      </div>
+
+      <div class="hdt-module">
+        <h3 class="hdt-module__title">
+          <span class="hdt-module__icon"><img src="/assets/images/research-icons/ai.svg" alt="" aria-hidden="true"></span>
+          Human Centric AI
+        </h3>
+        <div class="hdt-tags">
+          <span class="hdt-tag">Agents</span>
+          <span class="hdt-tag">Data</span>
+          <span class="hdt-tag">Software</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ai-panel" aria-label="Human centric AI research interests">
+    <p class="orbit-title">AI for Human Digital Twin</p>
+    <div class="orbit">
+      <div class="orbit-center">Human<br>Centric AI</div>
+
+      <div class="orbit-label orbit-label--data">
+        <h2>Data</h2>
+        <p>Multimodal signals, vision and language communication data, benchmarks</p>
+      </div>
+
+      <div class="orbit-label orbit-label--agents">
+        <h2>Agents</h2>
+        <p>Tools, memory, code generation, and action</p>
+      </div>
+
+      <div class="orbit-label orbit-label--software">
+        <h2>Software</h2>
+        <p>Algorithms, computer vision, lightweight models, large language models, foundation models</p>
+      </div>
+    </div>
+  </section>
+</div>
